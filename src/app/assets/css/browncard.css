@@ -1,0 +1,126 @@
+:root {
+  --primary-bg-orange: #DCC6AF;
+  --primary-text-orange: #CC9159;
+  --secondary-text-orange: #DB9A60;
+  --primary-text-brown: #B2987F;
+}
+
+
+
+
+.browncard-entry {
+  width: 9in;
+  /* height: 11.7in; */
+  background-color: var(--primary-bg-orange);
+  margin: 2rem auto;
+  padding: 1.25rem;
+  font-family: sans-serif;
+}
+
+.u-container {
+  padding: 0 20px;
+}
+
+.countries-thumbnail-list {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  gap: 0.5rem;
+  opacity: 0.35;
+}
+
+.countries-thumbnail-list img {
+  aspect-ratio: 16/10;
+  height: 100%;
+  width: 100%;
+}
+
+img.browncard-logo {
+  width: 200px;
+  object-fit:scale-down;
+}
+
+.u-shadow-md {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.b-card-section-content {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.browncard-text-variants h1:nth-child(1) {
+  color: var(--primary-text-orange);
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.browncard-text-variants h1:nth-child(2) {
+  color: var(--secondary-text-orange);
+  font-weight: 800;
+  font-size: 35px;
+}
+
+.browncard-text-variants h1:nth-child(3) {
+  color: var(--primary-text-brown);
+  font-size: 29px;
+}
+
+.notice-section{
+  margin:  20px 0 !important;
+  row-gap: 1.5rem;
+  column-gap: 5rem;
+}
+
+.mini-notice-section{
+
+}
+
+#img-qr {
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  background-color: #fff;
+}
+
+.qs-fields p:not(.qs-answer){
+  letter-spacing: normal;
+  line-height: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000a4;
+}
+.qs-fields p>i{
+  font-size: 15px;
+  line-height: 0px;
+}
+
+.qs-fields p.qs-answer{
+  letter-spacing: normal;
+  line-height: 25px;
+  font-size: x-large;
+  color: var(--secondary-text-orange);
+  margin-top: 6px;
+}
+
+
+.c-country{
+  padding: 0 5px;
+
+}
+
+.c-country img{
+  aspect-ratio: 1/1;
+}
+.c-country img:nth-child(1){
+  width: 100px;
+  height: 100px;
+}
+.c-country img:nth-child(2){
+  width: 100px;
+  height: 60px;
+}
+
+.mobile-frame{
+  position: absolute;
+  bottom: -110px;
+}

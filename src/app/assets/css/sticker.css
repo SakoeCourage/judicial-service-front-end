@@ -1,0 +1,254 @@
+.u-flex {
+  display: flex;
+}
+
+.u-flex-column {
+  flex-direction: column;
+}
+
+.u-inline-block {
+  display: inline-block;
+}
+
+.u-inline-flex {
+  display: inline-flex;
+}
+
+.u-block {
+  display: block;
+}
+
+.u-inline {
+  display: inline;
+}
+
+.u-items-center {
+  align-items: center;
+}
+
+.u-items-start {
+  align-items: start;
+}
+
+.u-content-between {
+  justify-content: space-between;
+}
+
+.u-justfiy-center {
+  justify-content: center;
+}
+
+.u-text-2xs {
+  font-size: 0.5rem;
+}
+
+.u-text-xs {
+  font-size: 0.75rem;
+}
+
+.u-text-sm {
+  font-size: 0.875rem;
+}
+
+.u-text-md {
+  font-size: 1rem;
+}
+
+
+.u-text-base {
+  font-size: 1rem;
+}
+
+.u-text-lg {
+  font-size: 1.25rem;
+}
+
+.u-text-xl {
+  font-size: 1.5rem;
+}
+.u-text-2xl {
+  font-size: 2rem;
+}
+
+.u-text-center {
+  text-align: center;
+}
+
+.u-font-light {
+  font-weight: 300;
+}
+
+.u-font-medium {
+  font-weight: 500;
+}
+
+.u-font-semi-bold {
+  font-weight: 600;
+}
+
+.u-font-bold {
+  font-weight: 700;
+}
+
+.u-font-extra-bold {
+  font-weight: bolder;
+}
+
+
+.u-relative {
+  position: relative;
+}
+
+.u-grid {
+  display: grid;
+
+}
+
+.u-grid-colums-1 {
+  grid-template-columns: 1fr;
+}
+
+.u-grid-colums-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.u-grid-colums-3 {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.u-w-full {
+  width: 100%;
+}
+
+.u-grow {
+  flex-grow: 1;
+}
+
+.u-gap-lg {
+  gap: 2.5rem;
+}
+
+
+.u-gap-xl {
+  gap: 5rem;
+}
+
+
+
+.u-gap-md {
+  gap: 1.5rem;
+}
+
+.u-gap-sm {
+  gap: 1rem;
+}
+
+.u-gap-xs {
+  gap: 0.825rem;
+}
+
+.u-gap-2xs {
+  gap: 0.425rem;
+}
+
+.u-p-5 {
+  padding: 5px;
+}
+
+.u-p-10 {
+  padding: 10px;
+}
+
+.u-pb-10 {
+  padding-bottom: 10px;
+}
+
+.u-pb-20 {
+  padding-bottom: 20px;
+}
+
+.u-pb-30 {
+  padding-bottom: 30px;
+}
+
+.u-pt-5 {
+  padding-top: 5px;
+}
+
+.u-mx-auto {
+  margin-top: auto;
+  margin-right: auto;
+}
+
+.u-mb-10 {
+  margin-bottom: 10px;
+}
+
+.u-mt-10 {
+  margin-top: 10px;
+}
+
+.u-mt-5 {
+  margin-top: 5px;
+}
+
+.u-italic {
+  font-style: italic;
+}
+
+.card-note {
+  max-width: 500px;
+  font-weight: 600;
+}
+
+
+.list-style-none {
+  list-style-type: none;
+}
+
+
+.u-line-height-2sm {
+  line-height: 0.25rem;
+}
+
+.u-line-height-sm {
+  line-height: 0.5rem;
+}
+
+.u-line-height-md {
+  line-height: 1rem;
+}
+
+.u-line-height-lg {
+  line-height: 1.5rem;
+  letter-spacing: 0.25px;
+}
+.u-line-height-xl {
+  line-height: 2rem;
+  
+}
+
+
+@media print {
+  @page {
+      size: A4;
+  }
+}
+
+.new-page {
+  page-break-before: always;
+}
+
+@media print and (orientation: portrait) {
+  .print-portrait {
+      width: 100%;
+      margin: 20px;
+  }
+}
+
+@media print and (orientation: landscape) {
+  .print-landscape {
+      width: 100%;
+      margin: 20px;
+  }
+}

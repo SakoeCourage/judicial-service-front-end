@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "app/*": ["./src/*"],
+      "@app/*": ["./src/*"],
+      "@/components/*": ["./src/app/components/*"],
+      "@/portal/*": ["./src/app/portal/*"],
+      "@/types/*": ["./src/app/types/*"],
+      "@/lib/*": ["./src/app/lib/*"],
+      "@entitiesDTO/*": ["./src/app/types/entitiesDTO/*"]
+    }
+  },
+  "files": ["./src/app/types/global.ts","./src/app/types/entitiesDTO/index.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "tryingopenai.js"],
+  "exclude": ["node_modules"]
+}
